@@ -28,6 +28,16 @@ computer_choice = random.choice(computer_options)
 print("The computer chose: ", computer_choice)
 
 
+# determine the winner
+winners = {"paper": "scissors", "rock": "paper", "scissors": "rock"}
+
+if user_choice == winners[computer_choice]:
+    print(f"Congrats, {user_choice} beats {computer_choice}, you win!")
+elif computer_choice == winners[user_choice]:
+    print(f"Sorry, {computer_choice} beats {user_choice}, computer wins!")
+else:
+    print("Tie.")
+
 
 
 
