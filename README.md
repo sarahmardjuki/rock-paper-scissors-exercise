@@ -1,5 +1,5 @@
 # Rock, Paper, Scissors! 
-The following sections will provide setup instructions and command lines needed to run the program from scratch, before explaining each section of code.
+The following sections will provide setup instructions and command lines needed to run the program from scratch.
 
 Rock, Paper, Scissors is a classic game, and this Python script will allow you to play against a computer. Best of luck! 
 
