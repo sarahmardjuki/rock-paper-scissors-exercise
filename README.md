@@ -35,3 +35,12 @@ Now you're ready to play! Run the Python script from the command-line:
 ```sh
 python game.py
 ```
+
+## How to Customize Your Player Name
+Create a new file called ".env" in the root directory of your local repository. 
+
+In the ".env" file, add in this line of code:
+```sh
+PLAYER_NAME = "Your Name Here"
+```
+
