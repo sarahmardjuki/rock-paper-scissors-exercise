@@ -23,9 +23,11 @@ print("-------------------")
 user_choice = input("Please choose either 'rock', 'paper', or 'scissors': ")
 print("You chose: ", user_choice)
 
+# make the user input all lowercase so our data validation is case insensitive
+user_choice = user_choice.lower()
 
 # validate user inputs (case insensitive)
-if user_choice.lower() != "rock" and user_choice.lower() != "paper" and user_choice.lower() != "scissors":
+if user_choice!= "rock" and user_choice != "paper" and user_choice != "scissors":
     print("Please select either 'rock', 'paper', or 'scissors'. Thanks!")
     exit()
 
