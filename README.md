@@ -44,3 +44,5 @@ In the ".env" file, add in this line of code:
 PLAYER_NAME = "Your Name Here"
 ```
 
+The game will now update with your chosen name as the player name.
+
