@@ -3,6 +3,9 @@ The following sections will provide setup instructions and command lines needed 
 
 Rock, Paper, Scissors is a classic game, and this Python script will allow you to play against a computer. Best of luck! 
 
+### Acknowledgements
+Based on in class materials from Professor Rossetti. 
+
 ## Prerequisites
 
 + Anaconda 3.7+
