@@ -31,12 +31,7 @@ Once you're inside the virtual environment, install the packages before trying t
 pip install -r requirements.txt
 ```
 
-Now you're ready to play! Run the Python script from the command-line:
-```sh
-python game.py
-```
-
-## How to Customize Your Player Name
+## Setup: How to Customize Your Player Name
 Create a new file called ".env" in the root directory of your local repository. 
 
 In the ".env" file, add in this line of code:
@@ -45,4 +40,12 @@ PLAYER_NAME = "Your Name Here"
 ```
 
 The game will now update with your chosen name as the player name.
+
+
+## Usage
+
+Now you're ready to play! Run the Python script from the command-line:
+```sh
+python game.py
+```
 
